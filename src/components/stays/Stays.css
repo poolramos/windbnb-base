@@ -1,0 +1,25 @@
+.stays-div {
+  display: flex;
+  height: 5vh;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stays-in {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.number-stays {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4f4f4f;
+}
+
+@media (max-width: 700px) {
+  .stays-in {
+    font-size: 20px;
+  }
+}
